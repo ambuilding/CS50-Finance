@@ -8,4 +8,5 @@
 * Viewing the history of transactions
 * Deposit additional funds.
 
-## HTML, CSS, PHP, and SQL
+## Objectives
+* Learn HTML, CSS, PHP, and SQL
