@@ -22,13 +22,13 @@ else if ($_SERVER["REQUEST_METHOD"] == "POST") {
 }
 
 // query
-$success = CS50::query(
-	"INSERT IGNORE INTO users (username, hash, cash) VALUES(?, ?, 10000.0000)", 
+$rows = CS50::query(
+	"INSERT IGNORE INTO users (username, hash, cash) VALUES(?, ?, 10000.0000)",
 	$_POST["username"], password_hash($_POST["password"], PASSWORD_DEFAULT)
 );
 
- if ($success !== 1) {
-// if ($success == 0) {
+ if ($rows !== 1) {
+// if ($rows == 0) {
     apologize("This username is already exists.");
 }
 else {
