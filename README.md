@@ -1,12 +1,12 @@
 # CS50-Finance
 
 ## Features:
-* Register, login, logout, change and reset password
-* Quote the price
-* User's portfolio
-* Buy/sell the stock
-* Viewing the history of transactions
-* Deposit additional funds.
+0. Register, login, logout, change and reset password
+2. Quote the price
+3. User's portfolio
+4. Buy/sell the stock
+5. Viewing the history of transactions
+6. Deposit additional funds.
 
 ## Objectives
-* Learn HTML, CSS, PHP, and SQL
+0. HTML, CSS, PHP, and SQL
