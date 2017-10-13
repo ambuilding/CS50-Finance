@@ -7,8 +7,8 @@
 2. Quote the valid stock information, price.
 3. User's portfolio.
    - Displaying:
-     * Each of the stocks in a user's portfolio: numbers of shares & current value(price times number).
-     * User's current cash balance.
+     - Each of the stocks in a user's portfolio: numbers of shares & current value(price times number).
+     - User's current cash balance.
    - Remove stock from portfolio.
 
 4. Buy/sell the stock.
