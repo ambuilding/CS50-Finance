@@ -10,7 +10,7 @@
             <input class="form-control" name="confirmation" placeholder="Password(again)" type="password"/>
         </div>
         <div class="form-group">
-            <input class="form-control" name="agreement" type="checkbox"/>I agree
+            <input name="agreement" type="checkbox"/> I agree
         </div>
         <div class="form-group">
             <button class="btn btn-default" type="submit">
@@ -22,23 +22,23 @@
 </form>
 
 <script>
-            var form = document.getElementById('registration');
-            form.onsubmit = function() {
-                if (form.name.value == '') {
-                    alert('missing name');
-                    return false;
-                } else if (form.password.value == '') {
-                    alert('missing password');
-                    return false;
-                } else if (form.password.value != form.confirmation.value) {
-                    alert('passwords do\'t match');
-                    return false;
-                } else if (!form.agreement.checked) {
-                    alert('checkbox unchecked');
-                    return false;
-                }
-            }
-        </script>
+    var form = document.getElementById('registration');
+    form.onsubmit = function() {
+        if (form.name.value == '') {
+            alert('missing name');
+            return false;
+        } else if (form.password.value == '') {
+            alert('missing password');
+            return false;
+        } else if (form.password.value != form.confirmation.value) {
+            alert('passwords do\'t match');
+            return false;
+        } else if (!form.agreement.checked) {
+            alert('checkbox unchecked');
+            return false;
+        }
+    }
+</script>
 
 <div>
     or <a href="login.php">log in</a>
